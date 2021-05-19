@@ -1,6 +1,6 @@
 ## Deep Learning Models for Computer Vision
 
-### Classification of mnist dataset using Convolutioner Neural Networks
+### Classification of mnist dataset using Convolutional Neural Networks
 
 1. Preprocess dataset
 
@@ -8,7 +8,7 @@
 
 1. Model Evaluation
 
-### Classification of cifar10 dataset using Convolutioner Neural Networks
+### Classification of cifar10 dataset using Convolutional Neural Networks
 
 1. Preprocess dataset
 
