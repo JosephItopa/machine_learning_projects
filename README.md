@@ -1,4 +1,4 @@
-# Best of Projects
+# Projects
 My best personal projects are grouped into different branches on github, this includes:
 1. [Machine Learning Project branch](https://github.com/JosephItopa/My_Best_Projects/tree/Machine-Learning-Projects)
 2. [NLP Project branch](https://github.com/JosephItopa/My_Best_Projects/tree/NLP_Projects)
