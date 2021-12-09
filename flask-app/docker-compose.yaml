@@ -1,0 +1,8 @@
+---
+services: 
+  flask-app: 
+    build: 
+      context: ./
+    ports:
+      - "5000:5000"
+version: "2.2"
