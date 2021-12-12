@@ -1,20 +1,22 @@
-# specify base image
+# Load a python image
 FROM python:3
 
-# Specify working directory
-WORKDIR ./
-
-# copy files from local system to container
-ADD ./app app
-
-# extract & save all needed libraries
+# save dependencies
 RUN pip freeze > requirements.txt
 
-# install libraries
+# copy solution from local to docker
+COPY . /src
+
+# Specify working directory
+WORKDIR /src
+
+# copy dependencies
+COPY ./requirements.txt /src/requirements.txt
+
+# install dependencies on container
 RUN pip install -r requirements.txt
 
-# Define which app should run when container starts
-ENTRYPOINT ["PYTHON"]
+EXPOSE 5000:5000
 
-# start flask-app from command prompt
-CMD ["python", "app/flask-app.py"]
+# ue entry point above to run the app
+CMD ["python", "fast-app.py"]

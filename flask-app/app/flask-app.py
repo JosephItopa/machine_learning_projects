@@ -20,4 +20,4 @@ def get_input():
 
 # main driver function
 if __name__ == '__main__':
-    app.run() 
+    app.run()
