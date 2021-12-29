@@ -1,0 +1,13 @@
+artifact_path: solar-irradiation
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.8.11
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+run_id: cf94055212814d90bd6db363787baa5b
+utc_time_created: '2021-12-27 21:33:44.748008'
